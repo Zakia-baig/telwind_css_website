@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export default function About() {
     return (
         <div className="flex flex-col items-center min-h-screen bg-gray-100 text-gray-800 px-6 py-8 md:px-16 lg:px-32">
@@ -14,4 +15,24 @@ export default function About() {
             </main>
         </div>
     );
+=======
+
+
+export default function About(){
+    return(
+       <div className="home-page">
+         < header/>
+         <main className="home-content">
+      <h1>About Me</h1>
+      <p>
+        My name is Zakia Baig, and I hold a Master’s degree in Economics from Karachi University. After completing my degree, I pursued programming training at the Governor House, where I developed a strong foundation in frontend development.
+      </p>
+      <p>
+        With a focus on creating seamless and visually appealing user experiences, I have developed expertise in HTML, CSS, JavaScript, React, and Next.js. My attention to detail and problem-solving skills allow me to bring ideas to life in the digital space.
+      </p>
+      </main>
+      <footer/>
+    </div>
+  );
+>>>>>>> 9eda366 (push my custom css code)
 }

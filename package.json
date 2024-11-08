@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "tailwind_css",
+=======
+  "name": "basic_ui",
+>>>>>>> 9eda366 (push my custom css code)
   "version": "0.1.0",
   "private": true,
   "scripts": {

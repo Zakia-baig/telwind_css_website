@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Link from "next/link";
 
 export default function header() {
@@ -15,4 +16,23 @@ export default function header() {
             </div>
         </div>
     );
+=======
+import Link from "next/link"
+
+export default function Header(){
+    return(
+        <div className="header" >
+
+            <ul className= "header-buttons">
+                
+            <li><Link href="/">  Home  </Link></li>
+                
+            <li> <Link href="/about-us">  About us </Link></li> 
+                
+            <li><Link href="/contect-us"> Contect us </Link></li> 
+                   
+            </ul>
+        </div>
+    )
+>>>>>>> 9eda366 (push my custom css code)
 }

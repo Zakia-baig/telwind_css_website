@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import Link from "next/link";
 export default function footer() {
@@ -13,3 +14,22 @@ export default function footer() {
         </div>
     );
 }
+=======
+import Link from "next/link";
+
+export function Footer(){
+    return(
+        <div className="footer">
+          
+            <ul className="footer-buttons">
+                <li> <Link href="/contect"> Contect us </Link> </li>
+                 <li> <Link href="/instagram">Instagram </Link> </li>
+               <li> <Link href="/facebook">Facebook </Link> </li>
+               <li> <Link href="/twitter">Twitter </Link> </li>
+               <li> <Link href="/privacy">Privacy policy </Link> </li>
+            </ul>
+        </div>
+    )
+}
+
+>>>>>>> 9eda366 (push my custom css code)

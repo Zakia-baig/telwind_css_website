@@ -1,6 +1,7 @@
 
 
 
+<<<<<<< HEAD
 export default function Home() {
   return (
       <div className="flex flex-col min-h-screen bg-gray-100 text-gray-800 font-sans">
@@ -15,3 +16,24 @@ export default function Home() {
       </div>
   );
 }
+=======
+
+export default function Home(){
+  
+    return (<div className="home-page">
+      
+       
+      < main className="home-content">
+    <h1>Hello, I'm Zakia Baig</h1>
+    <p>Welcome to my portfolio. I am a passionate Frontend Developer with a background in Economics and comprehensive programming training.</p>
+    </main>
+    
+    
+  </div>
+    
+  );
+  }
+  
+  
+  
+>>>>>>> 9eda366 (push my custom css code)
